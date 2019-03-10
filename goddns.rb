@@ -8,8 +8,6 @@ class Goddns < Formula
   depends_on "go" => :build
 
   def install
-    ENV["GOPATH"] = buildpath
-
     system "go", "build", "-o", "goddns"
     bin.install "goddns"
   end
