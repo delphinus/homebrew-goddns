@@ -24,9 +24,6 @@ class Goddns < Formula
         <key>ProgramArguments</key>
         <array>
           <string>#{opt_bin}/goddns</string>
-          <string>--keep-in-foreground</string>
-          <string>-C</string>
-          <string>#{etc}/goddns.toml</string>
         </array>
         <key>RunAtLoad</key>
         <true/>
