@@ -27,8 +27,6 @@ class Goddns < Formula
         </array>
         <key>RunAtLoad</key>
         <true/>
-        <key>KeepAlive</key>
-        <true/>
       </dict>
     </plist>
   EOS
