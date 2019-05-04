@@ -1,8 +1,8 @@
 class Goddns < Formula
   desc "Dynamic DNS Updater for Google Domains"
   homepage "https://github.com/delphinus/goddns"
-  url "https://github.com/delphinus/goddns/archive/v1.1.1.tar.gz"
-  sha256 "27941ef07c0a3c4ad01f3959f4a2b8b93456aac36ec28496f473f0c4c04bef44"
+  url "https://github.com/delphinus/goddns/archive/v1.1.2.tar.gz"
+  sha256 "ca0b60044f79447c628fad7c6e58be4501eb7c06cd9c5a295b61053cb0e63116"
   head "https://github.com/delphinus/goddns.git"
 
   depends_on "go" => :build
